@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Instigator Sound</title>
+  <meta name="description" content="Guitar pedals, VST plugins and Max for Live devices.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">Instigator <span>Sound</span></a>
+      <nav>
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Tools for making noise.</h1>
+      <p class="lead">Guitar pedals, VST plugins and Max for Live devices, designed to be played, pushed and broken.</p>
+      <div class="actions">
+        <a class="button" href="products.html">Browse products</a>
+        <a class="button secondary" href="about.html">About Instigator Sound</a>
+      </div>
+    </section>
+
+    <h2>Featured</h2>
+    <div class="grid" id="featured-grid"></div>
+
+    <h2>Browse by type</h2>
+    <div class="actions" style="display:flex;gap:12px;flex-wrap:wrap">
+      <a class="button secondary" href="products.html#pedal">Guitar Pedals</a>
+      <a class="button secondary" href="products.html#vst">VST Plugins</a>
+      <a class="button secondary" href="products.html#m4l">Max for Live</a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>&copy; <span id="year">2026</span> Instigator Sound</span>
+      <span>Payments handled securely by Gumroad.</span>
+    </div>
+  </footer>
+
+  <script src="js/products-data.js"></script>
+  <script src="js/main.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

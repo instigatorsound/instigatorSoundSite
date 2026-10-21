@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Products | Instigator Sound</title>
+  <meta name="description" content="Browse guitar pedals, VST plugins and Max for Live devices.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">Instigator <span>Sound</span></a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html" aria-current="page">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Products</h1>
+    <p class="lead">Filter by type. Every purchase is handled through Gumroad.</p>
+
+    <div class="filters" id="filters" role="group" aria-label="Filter products by type"></div>
+    <div class="grid" id="product-grid"></div>
+    <p class="empty" id="empty" hidden>Nothing here yet. Check back soon.</p>
+
+    <noscript><p>Please enable JavaScript to browse the catalog, or visit the shop directly on Gumroad.</p></noscript>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>&copy; <span id="year">2026</span> Instigator Sound</span>
+      <span>Payments handled securely by Gumroad.</span>
+    </div>
+  </footer>
+
+  <script src="js/products-data.js"></script>
+  <script src="js/main.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
