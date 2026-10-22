@@ -7,7 +7,7 @@ A static site (plain HTML, CSS and JavaScript, no build step) for selling guitar
 - `index.html`, `products.html`, `about.html`, `contact.html`: the pages
 - `js/products-data.js`: **the product catalog.** Add, edit or remove products here
 - `js/main.js`: renders product cards and handles filtering
-- `css/styles.css`: all styling (follows the visitor's light/dark preference)
+- `css/styles.css`: all styling (off-white theme; colors are variables at the top)
 - `images/`: product images, referenced from the catalog
 
 ## Adding a product
